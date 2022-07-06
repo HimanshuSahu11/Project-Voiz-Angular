@@ -1,0 +1,40 @@
+<h1>Corporate Login!</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="container">
+            <div class="contact-left">
+            <div class="card-header" color="primary">
+                Enter Your Email 
+            </div>
+            <div class="card-body">
+                <form>
+                <input type="inputType" class="form-control" placeholder="Enter your email">
+               
+                </form>
+
+                </div>
+           
+            <div class="card"></div>
+            <div class="card-header" color="primary">
+                Enter password
+            </div>
+            <div class="card-body">
+                <form>
+                <input [type]="inputType" class="form-control" placeholder="Enter your password">
+                <input type="checkbox" (change)="login($event)" class="form-check-input">Show password
+
+            </form>
+            <button class="btn-btn-sucess">Login    </button>
+
+            </div>
+        </div>
+        <div class="contact-right">
+
+        </div>
+
+        </div>
+        </div>
+    </div>
+</div>
